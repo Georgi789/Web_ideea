@@ -1,0 +1,21 @@
+#nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#nav-list li {
+  margin: 0 10px;
+}
+#nav-list a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+#nav-list a:hover {
+  background-color: rgb(221, 249, 249);
+  color: rgb(246, 58, 58);
+}
